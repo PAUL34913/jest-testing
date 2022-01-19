@@ -12,5 +12,9 @@
 **Jest**
 
     describe('calculator tests', () => {
-
+        describe('addition tests', () => {
+            test('should return 42 () => {
+                expect(addition(20,22)).toBe(42);
+            })
+        });
     });
